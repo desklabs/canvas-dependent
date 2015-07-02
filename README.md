@@ -7,7 +7,7 @@ A Desk.com canvas app that creates dependent list fields based on list field. It
 ### Deploy the Application
 The first step to install this application is to deploy the source code to your Heroku account. Simply click this button and the application will be deployed.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https%3A%2F%2Fgithub.com%2Fdesklabs%2Fcanvas-dependent)
 
 ### Create the Integration URL
 Now that you have the application on Heroku, go ahead and create the integration URL. You'll need specify the `field` param with the name of the custom list field you want the app to use. The second option is `value` and has to be set to the custom field value (`{{ case.custom_YOUR_KEY }}`).
