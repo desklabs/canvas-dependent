@@ -10,9 +10,9 @@ The first step to install this application is to deploy the source code to your 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ### Create the Integration URL
-Now that you have the application on Heroku, go ahead and create the integration URL. You'll need specify the `field` param with the name of the custom list field you want the app to use.
+Now that you have the application on Heroku, go ahead and create the integration URL. You'll need specify the `field` param with the name of the custom list field you want the app to use. The second option is `value` and has to be set to the custom field value (`{{ case.custom_YOUR_KEY }}`).
 
-![Integration URL](https://api.monosnap.com/rpc/file/download?id=L55bM4Fpbcqs1LWxB5yETn6CN6KxSA)
+![Integration URL](https://api.monosnap.com/rpc/file/download?id=KFord6Kf5LE770JEul1I89WK7QCNo4)
 
 ### Add it to your Case Layout
 The last step is to display your canvas application on your case layout. Don't forget to select some users you'd like to show the application to as well as change the height of the canvas based on the height of the list field options.
